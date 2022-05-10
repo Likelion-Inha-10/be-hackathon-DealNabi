@@ -53,3 +53,8 @@
 > 즉시 사용하고 버리는 일시적인 함수 \
 > ![image](https://user-images.githubusercontent.com/87406368/167620144-8893ca89-9c7c-47eb-b93e-93566e386474.png)
 
+### 6. 단어구름 준비 과정
+> 입력해야 했던 명령어 :
+> $ sudo apt-get install openjdk-7-jdk 
+$ sudo apt-get install python-dev
+$ sudo pip3 install konlpy 
