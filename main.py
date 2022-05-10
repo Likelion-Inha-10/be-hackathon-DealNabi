@@ -2,11 +2,14 @@ import re
 from turtle import title
 from urllib import response
 import requests
+import pandas as pd
+
 
 from get_id import get_id 
 from get_info import get_info
 from get_comment import get_comment
 from wdcloud import wordcloud_from_text
+
 
 import os
 
@@ -22,3 +25,11 @@ if __name__ == '__main__':
 
 #단어구름 작업 후 텍스트파일 삭제
 os.remove('./Comment_List.txt')
+
+data = {'영상제목': video_title,
+        '영상설명': video_des,
+        '채널명': video_channelTitle,
+        '조회수': video_viewCount}
+df = pd.DataFrame(data)
+
+df.to_excel('info.xlsx', encoding='utf-8-sig')
