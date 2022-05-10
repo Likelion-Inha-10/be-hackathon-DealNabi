@@ -9,6 +9,7 @@ from get_id import get_id
 from get_info import get_info
 from get_comment import get_comment
 from wdcloud import wordcloud_from_text
+from info2table import info2table
 
 
 import os
@@ -26,10 +27,5 @@ if __name__ == '__main__':
 #단어구름 작업 후 텍스트파일 삭제
 os.remove('./Comment_List.txt')
 
-data = {'영상제목': video_title,
-        '영상설명': video_des,
-        '채널명': video_channelTitle,
-        '조회수': video_viewCount}
-df = pd.DataFrame(data)
-
-df.to_excel('info.xlsx', encoding='utf-8-sig')
+#info를 엑셀로 내보내기
+info2table(video_title,video_des,video_channelTitle,video_viewCount)
