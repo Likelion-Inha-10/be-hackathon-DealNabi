@@ -67,10 +67,11 @@
 >2)	Brew install 명령어가 입력되지 않았음. 이후 구글링 통해 eval $(/opt/homebrew/bin/brew shellenv)를 입력했더니 구동됨.
 >3)	Brew install openjdk-7-jdk 명령어가 실행되지 않았음.
 >4)	M1 macOS 에서 구동되는 JDK를 따로 설치함.
->5)	자바경로 설정 과정에서 ~/.zshrc 파일이 없어서 직접 만들어줘야 했음.
+>5)	자바경로 설정 과정에서 ~/.zshrc 파일이 없어서 touch 명령어로 직접 만들어줘야 했음.
 >6)	다음날 JDK 관련 오류가 발생하여 17버전으로 다시 설치함.
 >
 >*6번 오류가 발생한 이유는 지금도 모르겠음. 당시 오류 매세지는 다음과 같았음. \
-><img width="452" alt="image" src="https://user-images.githubusercontent.com/96401830/167620956-71ab3ce9-2a0b-4148-93c5-894382942007.png">\
->코드를 분해해본 결과 JDK가 필요한 konlpy를 이용하는 코드에서 문제가 발생하는 것을 발견함. 이후 버전을 달리하여 다시 설치함으로 문제를 해결함
+><img width="1145" alt="스크린샷 2022-05-10 오후 8 49 31" src="https://user-images.githubusercontent.com/96401830/167622444-8e611df3-0ec8-4a09-a2ee-29460217958e.png">\
+>코드를 분해해본 결과 JDK가 필요한 konlpy를 이용하는 코드에서 문제가 발생하는 것을 발견함. \
+>이후 버전을 달리하여 다시 설치함으로 문제를 해결함
 
