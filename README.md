@@ -50,10 +50,6 @@
 > 리스트에 담긴 튜플 형태 {(단어1,빈도수1),(단어2,빈도수2)...}
 
 ### 5. 파이썬 문법에서 사용하는 익명 함수 lambda
-> 즉시 사용하고 버리는 일시적인 함수
->` ` ` python
-or (word, pos) in nltk.pos_tag(tokenized) {
-    if is_noun(pos): # pos가 명사면
-        return word
-}
-` ` ` 
+> 즉시 사용하고 버리는 일시적인 함수 \
+> ![image](https://user-images.githubusercontent.com/87406368/167620144-8893ca89-9c7c-47eb-b93e-93566e386474.png)
+
