@@ -51,7 +51,7 @@
 
 ### 5. 파이썬 문법에서 사용하는 익명 함수 lambda
 > 즉시 사용하고 버리는 일시적인 함수
->'''
+>'''python
 or (word, pos) in nltk.pos_tag(tokenized) {
     if is_noun(pos): # pos가 명사면
         return word
