@@ -36,10 +36,10 @@
 
 ### 2. request의 사용법
 > API 별 Required parameters 체크 필수 ! \
-> response 에서 복잡한 다중 딕셔너리 형식 받을 때 주의! ex. snippet
+> response 에서 복잡한 다중 딕셔너리 형식 받을 때 주의! ex. snippet \
 > ![image](https://user-images.githubusercontent.com/87406368/167616837-f28af553-d79b-44a5-9784-776922e82a06.png)
 
 
 ### 3. selenium 이냐, request 냐 ?!
-> selenium : 브라우저 상에서 마우스를 내리면서 동적으로 생성된 정보를 가져오는 툴
+> selenium : 브라우저 상에서 마우스를 내리면서 동적으로 생성된 정보를 가져오는 툴 \
 > request : request, params, response 를 통해 공공 데이터 API 이용
