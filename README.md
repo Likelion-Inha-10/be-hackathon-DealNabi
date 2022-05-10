@@ -5,15 +5,24 @@
 ----------------------------------------------------------------------
 
 ### 1. get_id : 실시간 인기 동영상 상위 N개의 동영상 ID 조회
+> input: N \
+> output: video_list 
 
-
-
-### 2. get_info : 해당 동영상의 "영상 제목", "영상 설명", "채널명", "조회수" 정보 조회
-
-
+### 2. get_info : 실시간 인기 동영상 상위 N개의 "영상 제목", "영상 설명", "채널명", "조회수" 정보 조회
+> input: N
+> output: video_title,video_des,video_channelTitle,video_viewCount
 
 ### 3. get_comment: 해당 동영상의 댓글 조회
-
-
+> input: video_list
+> output: return comment_lsit & comment_list.txt 파일 생성
 
 ### 4. wdcloud: 조회된 댓글로 단어구름 형성
+> input: comment_list.txt
+> output: wordcloud.png
+
+### 5. info2table
+> input: video_title,video_des,video_channelTitle,video_viewCount
+> output: exl 파일 생성
+
+---------------------------------------------------------------------
+
