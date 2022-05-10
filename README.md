@@ -53,7 +53,9 @@
 > 즉시 사용하고 버리는 일시적인 익명 함수 lambda \
 > ![image](https://user-images.githubusercontent.com/87406368/167620144-8893ca89-9c7c-47eb-b93e-93566e386474.png) \
 > ▶리스트 내포 for문 사용\
+> ```
 > [ 표현식 for 항목 in 리스트 or 튜플 if 조건문 ]
+> ```
 
 ### 6. 단어구름 준비 과정
 > 입력해야 했던 명령어 : \
