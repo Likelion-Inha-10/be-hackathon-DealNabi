@@ -12,7 +12,7 @@ def get_info(n):
     "part": ["snippet"],
     "chart": "mostPopular",
     "regionCode": "KR",
-    "maxResults": 100
+    "maxResults": n
     }
 
     params1_statistics = {
@@ -20,7 +20,7 @@ def get_info(n):
         "part": ["statistics"],
         "chart": "mostPopular",
         "regionCode": "KR",
-        "maxResults": 100
+        "maxResults": n
     }
 
     response1_snippet = requests.get(url1, params=params1_snippet).json()['items']

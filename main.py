@@ -7,9 +7,6 @@ from get_id import get_id
 from get_info import get_info
 from get_comment import get_comment
 from wdcloud import wordcloud_from_text
-from wdcloud import get_noun_list
-from wdcloud import tokenizer_konlpy
-from wdcloud import tokenizer_nltk
 
 import os
 
