@@ -43,5 +43,17 @@
 
 
 ### 3. selenium 이냐, request 냐 ?!
-> selenium : 브라우저 상에서 마우스를 내리면서 동적으로 생성된 정보를 가져오는 툴 \
-> request : request, params, response 를 통해 공공 데이터 API 이용
+> selenium : 브라우저 상에서 마우스를 내리면서 동적으로 생성된 정보를 가져오는 모듈 (시간이 오래걸림) \
+> request : request, params, response 를 통해 공공 데이터 API 이용 (범용성 good)
+
+### 4. 단어구름 noum_list 의 반환 형태 
+> 리스트에 담긴 튜플 형태 {(단어1,빈도수1),(단어2,빈도수2)...}
+
+### 5. 파이썬 문법에서 사용하는 익명 함수 lambda
+> 즉시 사용하고 버리는 일시적인 함수
+>'''
+or (word, pos) in nltk.pos_tag(tokenized) {
+    if is_noun(pos): # pos가 명사면
+        return word
+}
+>'''
