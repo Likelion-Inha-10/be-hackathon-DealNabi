@@ -56,5 +56,17 @@
 ### 6. 단어구름 준비 과정
 > 입력해야 했던 명령어 :
 > $ sudo apt-get install openjdk-7-jdk 
-$ sudo apt-get install python-dev
-$ sudo pip3 install konlpy 
+> $ sudo apt-get install python-dev
+> $ sudo pip3 install konlpy 
+>
+>1)	M1 macOS 특성상 apt-get가 아닌 homebrew를 통해 설치해야 했음.
+>2)	Brew install 명령어가 입력되지 않았음. 이후 구글링 통해 eval $(/opt/homebrew/bin/brew shellenv)를 입력했더니 구동됨.
+>3)	Brew install openjdk-7-jdk 명령어가 실행되지 않았음.
+>4)	M1 macOS 에서 구동되는 JDK를 따로 설치함.
+>5)	자바경로 설정 과정에서 ~/.zshrc 파일이 없어서 직접 만들어줘야 했음.
+>6)	다음날 JDK 관련 오류가 발생하여 17버전으로 다시 설치함.
+>
+>*6번 오류가 발생한 이유는 지금도 모르겠음. 당시 오류 매세지는 다음과 같았음. 
+><img width="452" alt="image" src="https://user-images.githubusercontent.com/96401830/167620956-71ab3ce9-2a0b-4148-93c5-894382942007.png">
+>코드를 분해해본 결과 JDK가 필요한 konlpy를 이용하는 코드에서 문제가 발생하는 것을 발견함. 이후 버전을 달리하여 다시 설치함으로 문제를 해결함
+
