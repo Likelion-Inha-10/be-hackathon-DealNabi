@@ -14,8 +14,8 @@ from info2table import info2table
 
 import os
 
-video_list=get_id(100)
-video_title,video_des,video_channelTitle,video_viewCount=get_info(100)
+video_list=get_id(50)
+video_title,video_des,video_channelTitle,video_viewCount=get_info(50)
 get_comment(video_list)
 
 #단어구름 작업 ------------------------------------------------------------------------------------------------------
