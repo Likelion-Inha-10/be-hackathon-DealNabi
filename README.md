@@ -37,7 +37,9 @@
 ### 2. request의 사용법
 > API 별 Required parameters 체크 필수 ! \
 > response 에서 복잡한 다중 딕셔너리 형식 받을 때 주의! ex. snippet \
-> ![image](https://user-images.githubusercontent.com/87406368/167616837-f28af553-d79b-44a5-9784-776922e82a06.png)
+> ![image](https://user-images.githubusercontent.com/87406368/167616837-f28af553-d79b-44a5-9784-776922e82a06.png) \
+> ![image](https://user-images.githubusercontent.com/87406368/167617046-ee0e2ba7-544e-4c7b-b874-723afe75540e.png)
+
 
 
 ### 3. selenium 이냐, request 냐 ?!
